@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'damplearning';
+  damplearningTitle = 'damplearning';
+  downloadinternetSubtitle = 'Click here to download the Internet';
+  onbuttonClick():void{
+  this.downloadinternetSubtitle = "You've successfully installed the Internet"
+
+
+  }
 }
