@@ -1,0 +1,76 @@
+{
+  "tables": [
+    {
+      "tableName": "city",
+      "schema": [
+        {
+          "fieldName": "ID",
+          "keyfield": true
+        },
+        {
+          "fieldName": "city"
+        },
+        {
+          "fieldName": "state",
+          "lookup": "state"
+        }
+      ],
+      "data": [
+        { "ID": 1, "city": "Barlow", "state": "Oregon" },
+        { "ID": 2, "city": "Johnson City", "state": "Oregon" },
+        { "ID": 3, "city": "Estacada", "state": "Oregon" },
+        { "ID": 4, "city": "Molalla", "state": "Oregon" },
+        { "ID": 5, "city": "Sandy", "state": "Oregon" },
+        { "ID": 6, "city": "Gladstone", "state": "Oregon" },
+        { "ID": 7, "city": "Canby", "state": "Oregon" },
+        { "ID": 8, "city": "Happy Valley", "state": "Oregon" },
+        { "ID": 9, "city": "West Linn", "state": "Oregon" },
+        { "ID": 10, "city": "Oregon City", "state": "Oregon" },
+        { "ID": 11, "city": "Milwaukie", "state": "Oregon" },
+        { "ID": 12, "city": "Lake Oswego", "state": "Oregon" },
+        { "ID": 13, "city": "Rivergrove", "state": "Oregon" },
+        { "ID": 14, "city": "Wilsonville", "state": "Oregon" },
+        { "ID": 15, "city": "Maywood Park", "state": "Oregon" },
+        { "ID": 16, "city": "Wood Village", "state": "Oregon" },
+        { "ID": 17, "city": "Fairview", "state": "Oregon" },
+        { "ID": 18, "city": "Troutdale", "state": "Oregon" },
+        { "ID": 19, "city": "Gresham", "state": "Oregon" },
+        { "ID": 20, "city": "Portland", "state": "Oregon" },
+        { "ID": 21, "city": "Durham", "state": "Oregon" },
+        { "ID": 22, "city": "Banks", "state": "Oregon" },
+        { "ID": 23, "city": "North Plains", "state": "Oregon" },
+        { "ID": 24, "city": "King City", "state": "Oregon" },
+        { "ID": 25, "city": "Cornelius", "state": "Oregon" },
+        { "ID": 26, "city": "Sherwood", "state": "Oregon" },
+        { "ID": 27, "city": "Forest Grove", "state": "Oregon" },
+        { "ID": 28, "city": "Tigard", "state": "Oregon" },
+        { "ID": 29, "city": "Beaverton", "state": "Oregon" },
+        { "ID": 30, "city": "Hillsboro", "state": "Oregon" },
+        { "ID": 31, "city": "Tualatin", "state": "Oregon" },
+        { "ID": 32, "city": "Gaston", "state": "Oregon" }
+      ]
+    },
+    {
+      "tableName": "state",
+      "schema": [
+        {
+          "fieldName": "ID",
+          "keyField": true
+        },
+        {
+          "fieldName": "state"
+        },
+        {
+          "fieldName": "shortCode"
+        }
+      ],
+      "data": [
+        {
+          "ID": 1,
+          "state": "Oregon",
+          "shortCode": "OR"
+        }
+      ]
+    }
+  ]
+}

@@ -3,14 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from "@angular/common/http";
+import { TablesRouteComponent } from './tables-route/tables-route.component';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TablesRouteComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    RouterModule.forRoot([
+      {
+        path: 'tables', component: TablesRouteComponent
+      }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

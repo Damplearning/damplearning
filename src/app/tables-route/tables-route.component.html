@@ -1,0 +1,19 @@
+<div>
+  <div *ngFor="let tables of tables$ | async">
+    <h3>{{tables.tableName}}</h3>
+    <table>
+      <thead>
+        <tr>
+          <td *ngFor="let td of tables.schema">
+            {{td.fieldName}}
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dataRow of tables.data">
+          <td *ngFor="let item of dataRow | keyvalue">{{item.value}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
