@@ -1,0 +1,27 @@
+1) it needs to generate a database
+2) setup the db sa admin user with admin password, connection info
+3)
+
+
+
+
+
+
+
+What does the DB need to have and be and do?
+DB Name:
+sql_server_damplearning
+
+sa admin username:
+TODO
+
+sa admin password:
+TODO
+
+port?:
+TODO does this matter?
+
+host?:
+TODO does this matter?
+
+

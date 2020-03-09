@@ -1,0 +1,45 @@
+{
+  "schema": [
+    { "keyfield": "ID" },
+    {
+      "field": [
+        { "fieldName": "city", "lookup": null },
+        { "fieldName": "state", "lookup": "state" }
+      ]
+    }
+  ],
+  "defaultData": [
+    { "city": "Barlow", "state": "Oregon" },
+    { "city": "Johnson City", "state": "Oregon" },
+    { "city": "Estacada", "state": "Oregon" },
+    { "city": "Molalla", "state": "Oregon" },
+    { "city": "Sandy", "state": "Oregon" },
+    { "city": "Gladstone", "state": "Oregon" },
+    { "city": "Canby", "state": "Oregon" },
+    { "city": "Happy Valley", "state": "Oregon" },
+    { "city": "West Linn", "state": "Oregon" },
+    { "city": "Oregon City", "state": "Oregon" },
+    { "city": "Milwaukie", "state": "Oregon" },
+    { "city": "Lake Oswego", "state": "Oregon" },
+    { "city": "Rivergrove", "state": "Oregon" },
+    { "city": "Wilsonville", "state": "Oregon" },
+    { "city": "Maywood Park", "state": "Oregon" },
+    { "city": "Wood Village", "state": "Oregon" },
+    { "city": "Fairview", "state": "Oregon" },
+    { "city": "Troutdale", "state": "Oregon" },
+    { "city": "Gresham", "state": "Oregon" },
+    { "city": "Portland", "state": "Oregon" },
+    { "city": "Durham", "state": "Oregon" },
+    { "city": "Banks", "state": "Oregon" },
+    { "city": "North Plains", "state": "Oregon" },
+    { "city": "King City", "state": "Oregon" },
+    { "city": "Cornelius", "state": "Oregon" },
+    { "city": "Sherwood", "state": "Oregon" },
+    { "city": "Forest Grove", "state": "Oregon" },
+    { "city": "Tigard", "state": "Oregon" },
+    { "city": "Beaverton", "state": "Oregon" },
+    { "city": "Hillsboro", "state": "Oregon" },
+    { "city": "Tualatin", "state": "Oregon" },
+    { "city": "Gaston", "state": "Oregon" }
+  ]
+}
